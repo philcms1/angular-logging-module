@@ -1,6 +1,6 @@
  (function() {
      'use strict';
-     angular.module('soaaLogging').factory('$log', ['appContext', 'appConfig', logFactory]);
+     angular.module('appLogging').factory('$log', ['appContext', 'appConfig', logFactory]);
 
      function logFactory(appContext, appConfig) {
          var
